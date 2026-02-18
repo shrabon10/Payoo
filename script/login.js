@@ -8,7 +8,7 @@ document.getElementById("login-btn").addEventListener('click', function(){
     console.log(pin);
 
     if(contuctNumber == "01749761853" && pin == "1234"){
-        // alert("Successfully Log");
+        alert("Successfully Login");
         window.location.assign("/home.html")
     }else{
         alert("please Try Again")
