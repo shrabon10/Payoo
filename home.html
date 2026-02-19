@@ -65,12 +65,12 @@
         low and
       </p>
 
-      <div class="button grid grid-cols-3 gap-3">
-        <button class="btn flex-col h-full py-4 btn-primary btn-soft">
+      <div  class="button grid grid-cols-3 gap-3">
+        <button onclick="showOnly ('Add-money')" class="btn flex-col h-full py-4 btn-primary btn-soft">
           <img src="assets/opt-1.png" alt="" />
-          <p>add Money</p>
+          <p>Add Money</p>
         </button>
-        <button class="btn flex-col h-full py-4 btn-primary btn-soft">
+        <button onclick="showOnly('Cashout')" class="btn flex-col h-full py-4 btn-primary btn-soft">
           <img src="assets/opt-2.png" alt="" />
           <p>Cashout</p>
         </button>
@@ -95,14 +95,14 @@
 
     
 
-    <section id="Cashout" class="w-11/12 mx-auto py-5  ">
+    <section id="Add-money" class="w-11/12 mx-auto py-5 hidden ">
       <h2 class="font-bold text-xl mb-5">Add Money</h2>
         <div class="card bg-base-100 w-full shadow rounded-2xl">
         <div class="card-body">
           <fieldset class="fieldset">
             <label class="label font-bold text-neutral">Select Bank</label>
             <select id="add-Money-Bank" class="select w-full bg-base-200 rounded-full">
-              <option disabled selected>Select A Bank</option>
+              <option id="select-a-bank" disabled selected>Select A Bank</option>
               <option value="DBBl">DBBL</option>
               <option value="IBBL">IBBL</option>
               <option value="IFIC">IFIC</option>
