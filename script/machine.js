@@ -20,10 +20,13 @@ function setbalance(value){
 function showOnly (id){
     const addMoney = document.getElementById("Add-money")
     const cashout = document.getElementById("Cashout")
+    const transfer = document.getElementById("transfer")
     const Transactions = document.getElementById("history")
+
 
     addMoney.classList.add("hidden")
     cashout.classList.add("hidden")
+    transfer.classList.add("hidden")
     Transactions.classList.add("hidden")
 
     const selected = document.getElementById(id)

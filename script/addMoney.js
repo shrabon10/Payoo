@@ -27,7 +27,7 @@ document.getElementById("Add-money-btn").addEventListener("click", function(){
         const newHistory = document.createElement("div")
         newHistory.innerHTML = `
                 <div class="transaction-card p-5 bg-base-100">
-                Add Money Successfully ${bankAccount}, acc-no. ${accno} at  ${new Date().toLocaleTimeString()}
+                Add Money ${amount} Successfully From ${bankAccount}, acc-no. ${accno} at  ${new Date().toLocaleTimeString()}
         </div>`
 
         history.append(newHistory)
