@@ -23,7 +23,7 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
         const newHistory = document.createElement("div")
         newHistory.innerHTML = `
                 <div class="transaction-card p-5 bg-base-100">
-                Cashout ${cashoutAmount} Taka Successfully Acc-no. ${cashoutNumber}, at ${new Date().toLocaleTimeString()}
+                Cashout ${cashoutAmount} Taka New Amount- ${newbalance} taka Successfully Acc-no. ${cashoutNumber}, at ${new Date().toLocaleTimeString()}
         </div>`
 
         history.append(newHistory)

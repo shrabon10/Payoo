@@ -27,7 +27,7 @@ document.getElementById("transfer-btn").addEventListener("click", function(){
         newHistory.innerHTML =
         `
         <div class="transaction-card p-5 bg-base-100">
-                Transfer ${transferAmount} Taka Successfully Acc-no. ${transferNum}, at ${new Date().toLocaleTimeString()}
+                Transfer ${transferAmount} Taka New Amount- ${newAmount} taka Successfully Acc-no. ${transferNum}, at ${new Date().toLocaleTimeString()}
         </div>
         `
         history.append(newHistory);
